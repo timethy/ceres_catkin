@@ -23,7 +23,7 @@ else (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
 endif (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
 
 ExternalProject_Add(ceres_src
-  GIT_REPOSITORY https://ceres-solver.googlesource.com/ceres-solver
+  GIT_REPOSITORY https://github.com/ceres-solver/ceres-solver
   GIT_TAG ${CERES_TAG}
   UPDATE_COMMAND ""
   CONFIGURE_COMMAND cmake  
